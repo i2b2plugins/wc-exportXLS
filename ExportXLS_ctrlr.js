@@ -79,7 +79,7 @@ i2b2.ExportXLS.InitAndResetGlobalVars = function()
 	i2b2.ExportXLS.PatientDataColumns = new Array ( "sex_cd", "age_in_years_num", "birth_date", "birth_year", "vital_status_cd", "language_cd", "marital_status_cd", "race_cd", "religion_cd", "income_cd", "statecityzip_path", "state_path", "city_path", "locality_path", "zip_cd");
 	
 	// Global var for patient demographic data column headers 
-	i2b2.ExportXLS.PatientDataColumnHeaders = { "vital_status_cd": "Vital Status", "language_cd": "Language", "birth_date": "Birth Date", "birth_year": "Birth Year", "race_cd": "Race", "religion_cd": "Regligion", "income_cd": "Income", "statecityzip_path": "State/City/ZIP", "state_path": "State", "city_path": "City", "locality_path": "Locality", "zip_cd": "ZIP", "marital_status_cd": "Marital Status", "age_in_years_num": "Age in Years", "sex_cd": "Sex" };	
+	i2b2.ExportXLS.PatientDataColumnHeaders = { "vital_status_cd": "Vital Status", "language_cd": "Language", "birth_date": "Birth Date", "birth_year": "Birth Year", "race_cd": "Race", "religion_cd": "Religion", "income_cd": "Income", "statecityzip_path": "State/City/ZIP", "state_path": "State", "city_path": "City", "locality_path": "Locality", "zip_cd": "ZIP", "marital_status_cd": "Marital Status", "age_in_years_num": "Age in Years", "sex_cd": "Sex" };
 }
  
 i2b2.ExportXLS.SetAccessories = function() {
